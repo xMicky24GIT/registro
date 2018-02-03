@@ -4,8 +4,8 @@ using namespace std;
 
 //strutture
 struct Anagrafica{
-	char nome[10];
-	char cognome[10];
+	string nome;
+	string cognome;
 	char codicefiscale[16];
 	char sesso;
 	int cap;

@@ -19,9 +19,9 @@ Anagrafica archivio[50];
 
 //funzioni
 void waitChar(){
-    do{
-        cout << "Premi invio per continuare...";
-    } while (getchar()!='\n');
+    cout << "Press any key to continue...";
+    cin.ignore();
+    getchar();
 }
 
 int menu(){
